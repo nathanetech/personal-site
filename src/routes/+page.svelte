@@ -23,11 +23,11 @@
 <svelte:head>
     <title>Nathan Tech</title>
 </svelte:head>
-<div class="p-12 rounded-lg h-max bg-white dark:bg-slate-800">
+<div class="p-2 md:p-6 lg:p-12 rounded-lg h-max bg-white dark:bg-slate-800">
     <div class="mb-8 text-center border-b-2 pb-4 relative">
         <h1 class="text-5xl text-sky-700 dark:text-sky-500 text-semibold">Nathan Tech</h1>
         <h3 class="text-2xl text-sky-900 dark:text-sky-700">Software Engineer</h3>
-        <button on:click={() => { isDark = !isDark}} class="absolute top-6 right-6 md:right-12 text-sky-700 dark:text-sky-500 transition-all ease-in-out duration-300">
+        <button on:click={() => { isDark = !isDark}} class="absolute top-14 sm:top-6 right-6 md:right-12 text-sky-700 dark:text-sky-500 transition-all ease-in-out duration-300">
             {#if isDark}
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun-fill h-6 w-6" viewBox="0 0 16 16">
                     <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
@@ -40,7 +40,7 @@
         </button>
     </div>
     <div class="grid md:grid-cols-12">
-        <div class="md:col-span-5 lg:col-span-3 space-y-6 p-4 md:bg-slate-200 md:dark:bg-slate-700">
+        <div class="md:col-span-5 lg:col-span-4 xl:col-span-3 2xl:col-span-2 space-y-6 p-4 md:bg-slate-200 md:dark:bg-slate-700">
             <div>
                 <Header>
                     Contact
@@ -139,7 +139,7 @@
                 </p>
             </div>
         </div>
-        <div class="md:col-span-7 lg:col-span-9 p-4 space-y-6">
+        <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 p-4 space-y-6">
             <div>
                 <Header>
                     Experience
