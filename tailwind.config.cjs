@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	darkMode: 'class',
 	theme: {
-		extend: {}
+		extend: {},
+		container: {
+			padding: '2rem'
+		}
 	},
 	plugins: []
 };
