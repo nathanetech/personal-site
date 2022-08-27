@@ -9,7 +9,7 @@
     <h1 class="text-xl text-semibold">
         {name}
     </h1>
-    <a href={url}>
+    <a href={url} class="print:hidden">
         {linkText}    
     </a>
     {#if technologies.length}

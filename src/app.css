@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	@apply font-sans md:m-6 lg:m-12 xl:m-24 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 transition-all ease-in-out duration-300;
+	@apply font-sans print:m-0 print:text-sm md:m-6 lg:m-12 xl:m-24 bg-slate-100 dark:bg-slate-700 text-slate-800 dark:text-slate-200 transition-all ease-in-out duration-300;
 }
 
 ul {
@@ -11,5 +11,5 @@ ul {
 }
 
 a {
-	@apply text-sky-700 hover:text-sky-900 dark:text-sky-500 dark:hover:text-sky-700;
+	@apply text-sky-700 hover:text-sky-900 dark:text-sky-500 dark:hover:text-sky-700 print:text-slate-800;
 }
