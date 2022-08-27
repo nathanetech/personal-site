@@ -19,6 +19,10 @@
         "Tailwind",
         "C#",
         "Java",
+        "Docker", 
+        "Kubernetes",
+        "MySQL",
+        "PostgreSQL"
     ]
 
     let isDark = false;
@@ -138,7 +142,7 @@
                         position="Software Engineer (remote)"
                         company="Tithe.ly"
                         time="2021-present"
-                        technologies="PHP, Javascript, Vue, Git, MySQL"
+                        technologies="PHP, Javascript, Vue, Git, MySQL, Docker"
                     >
                         <ul>
                             <li>
@@ -159,7 +163,7 @@
                         position="Full Stack Software Engineer (remote)"
                         company="Breeze ChMS"
                         time="2017-2021"
-                        technologies="Javascript, React, PHP, Laravel, Git, MySQL, Cypress.io, Stripe"
+                        technologies="Javascript, React, PHP, Laravel, Git, MySQL, Cypress.io, Stripe, Docker, Kubernetes"
                     >
                         <ul>
                             <li>
@@ -184,7 +188,7 @@
                             <li class="print:hidden">
                                 Provided meaningful feedback to coworkers in code reviews. 
                             </li>
-                            <li>
+                            <li class="print:hidden">
                                 Developed new features and maintained legacy code.
                             </li>
                             <li class="print:hidden">
