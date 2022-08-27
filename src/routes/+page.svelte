@@ -4,6 +4,23 @@
     import Project from "../components/project.svelte"
     import { onMount } from 'svelte';
 
+    const skills = [
+        "Javascript",
+        "React",
+        "SvelteKit",
+        "Vue",
+        "Python",
+        "FastAPI",
+        "Git",
+        "PHP",
+        "Laravel",
+        "HTML",
+        "CSS", 
+        "Tailwind",
+        "C#",
+        "Java",
+    ]
+
     let isDark = false;
     /**
     * @type {HTMLElement}
@@ -104,39 +121,11 @@
                 <Header>
                     Skills
                 </Header>
-                <p>
-                    Javascript
-                </p>
-                <p>
-                    React
-                </p>
-                <p>
-                    SvelteKit
-                </p>
-                <p>
-                    Vue
-                </p>
-                <p>
-                    Python
-                </p>
-                <p>
-                    FastAPI
-                </p>
-                <p>
-                    Git
-                </p>
-                <p>
-                    PHP
-                </p>
-                <p>
-                    Laravel
-                </p>
-                <p>
-                    C#
-                </p>
-                <p>
-                    Java
-                </p>
+                {#each skills as skill}
+                    <p>
+                        {skill}
+                    </p>
+                {/each}
             </div>
         </div>
         <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 p-4 space-y-6">
