@@ -41,10 +41,10 @@
     <title>Nathan Tech</title>
 </svelte:head>
 <div class="p-2 md:p-6 lg:p-12 rounded-lg h-max bg-white dark:bg-slate-800">
-    <div class="mb-8 text-center border-b-2 pb-4 relative">
-        <h1 class="text-5xl text-sky-700 dark:text-sky-500 text-semibold">Nathan Tech</h1>
+    <div class="mb-8 md:text-center border-b-2 px-4 pb-4 relative">
+        <h1 class="text-5xl text-sky-700 dark:text-sky-500 font-semibold">Nathan Tech</h1>
         <h3 class="text-2xl text-sky-900 dark:text-sky-700">Software Engineer</h3>
-        <button on:click={() => { isDark = !isDark}} class="absolute top-14 sm:top-6 right-6 md:right-12 text-sky-700 dark:text-sky-500 transition-all ease-in-out duration-300">
+        <button on:click={() => { isDark = !isDark}} class="absolute top-4 right-6 md:right-12 text-sky-700 dark:text-sky-500 transition-all ease-in-out duration-300">
             {#if isDark}
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun-fill h-6 w-6" viewBox="0 0 16 16">
                     <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
@@ -135,45 +135,60 @@
                 </Header>
                 <div class="space-y-6">
                     <Job
-                        position="Software Engineer"
+                        position="Software Engineer (remote)"
                         company="Tithe.ly"
                         time="2021-present"
                         technologies="PHP, Javascript, Vue, Git, MySQL"
                     >
                         <ul>
                             <li>
-                                Worked on a small team to create a package that simplified the company's backend for 
-                                transaction processing across multiple products.
+                                Simplified the API for processing transactions by developing a unified package for all the company's PHP products.
                             </li>
                             <li>
                                 Updated unit tests to follow established best practices.
                             </li>
                             <li>
-                                Optimized front-end code to speed up customer interactions by analyzing and removing
-                                unnecessary calls to legacy API. 
+                                Increased app performance by analyzing and removing unnecessary network calls to legacy API. 
+                            </li>
+                            <li>
+                                Provided meaningful feedback to coworkers in code reviews. 
                             </li>
                         </ul>
                     </Job>
                     <Job
-                        position="Full Stack Software Engineer"
+                        position="Full Stack Software Engineer (remote)"
                         company="Breeze ChMS"
                         time="2017-2021"
-                        technologies="Javascript, React, PHP, Laravel, Git, MySQL, Cypress.io"
+                        technologies="Javascript, React, PHP, Laravel, Git, MySQL, Cypress.io, Stripe"
                     >
                         <ul>
                             <li>
                                 Improved customer experience by creating a new customer-facing drag-and-drop dashboard from start to finish.
                             </li>
                             <li>
+                                Reduced load times of React frontend by 50% by analyzing and reducing bundle size and optimizing network calls.
+                            </li>
+                            <li>
                                 Helped the team move from using class components to function components in React by 
                                 leading a talk on the subject and creating multiple examples in the company's codebase. 
                             </li>
                             <li>
-                                Delivered clarity and value to the company's sales team by creating an automated integration with Hubspot
-                                that kept company and contact data synchronized between the two data sources. 
+                                Created an automated integration with Hubspot that kept company and contact data synchronized between the two data sources. 
                             </li>
                             <li>
                                 Expanded the API by creating multiple well-tested endpoints and services. 
+                            </li>
+                            <li>
+                                Contributed to company and engineering culture by leading tech talks and watercooler events.
+                            </li>
+                            <li>
+                                Provided meaningful feedback to coworkers in code reviews. 
+                            </li>
+                            <li>
+                                Developed new features and maintained legacy code.
+                            </li>
+                            <li>
+                                Worked directly with the product team to develop new features based on customer feedback. 
                             </li>
                         </ul>
                     </Job>
@@ -192,10 +207,7 @@
                     >
                         <ul>
                             <li>
-                                Web app I created to hold raffles at a work retreat.
-                            </li>
-                            <li>
-                                Currently hard-coded to the names of the people who were at the retreat.
+                                Web app created to hold raffles at a work retreat. Currently hard-coded to the names of the people who were at the retreat.
                             </li>
                         </ul>
                     </Project>
@@ -207,10 +219,38 @@
                     >
                         <ul>
                             <li>
-                                Galaga-inspired 3D game I made in Unity and released on the Google Play Store.
+                                Galaga-inspired 3D game made in Unity and released on the Google Play Store.
                             </li>
                         </ul>
                     </Project>
+                </div>
+            </div>
+            <div>
+                <Header>
+                    LinkedIn Recommendations
+                </Header>
+                <div class="space-y-6">
+                    <div>
+                        <p>
+                            "I worked with Nathan on the same team. We directly collaborated on multiple efforts on the Breeze Church Management 
+                            software over a year and a half. He is an incredible engineer. He communicates clearly, is eager to learn, and is a 
+                            very capable coach. Even more importantly, he has a wonderful attitude and approach to his work and life; and he has 
+                            a great sense of humor. I heartily recommend him!"
+                        </p>
+                        <p class="font-semibold">
+                            - Bill Harding
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            "I had the privilege and joy of working directly with Nathan on a couple of projects. He's a super smart, witty, 
+                            and hilarious developer that has broad skills. Nathan excels in the front and back-end spaces of web app development 
+                            and is an excellent communicator. He couples these skills with a great attitude. I'd highly recommend him to any team."
+                        </p>
+                        <p class="font-semibold">
+                            - Josh Weaver
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
