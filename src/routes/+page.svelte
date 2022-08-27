@@ -57,7 +57,7 @@
         </button>
     </div>
     <div class="grid md:grid-cols-12 print:grid-cols-12">
-        <div class="md:col-span-5 lg:col-span-4 xl:col-span-3 2xl:col-span-2 print:col-span-2 print:bg-slate-200 space-y-6 p-4 md:bg-slate-200 md:dark:bg-slate-700">
+        <div class="md:col-span-5 lg:col-span-4 xl:col-span-3 2xl:col-span-2 print:col-span-4 print:bg-slate-200 space-y-6 p-4 md:bg-slate-200 md:dark:bg-slate-700">
             <div>
                 <Header>
                     Contact
@@ -128,7 +128,7 @@
                 {/each}
             </div>
         </div>
-        <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 print:col-span-9 p-4 space-y-6">
+        <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 print:col-span-8 p-4 space-y-6">
             <div>
                 <Header>
                     Experience
