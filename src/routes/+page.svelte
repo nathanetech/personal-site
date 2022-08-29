@@ -255,6 +255,22 @@
                             - Josh Weaver
                         </p>
                     </div>
+                    <div>
+                        <p>
+                            "Nathan is a driven, fast learner who provides not only great technical skills and expertise but also is a great benefit to the culture of any organization he is a part of. He has a unique blend of care for others, humor, and technical excellence that makes him an incredible asset to any organization.
+                        </p>
+                        <br />
+                        <p>
+                            He's always pushing himself to learn more - in fact he's one of the primary people I learn from to in order to ensure I'm staying up-to-date on the latest technology and methodologies.
+                        </p>
+                        <br />
+                        <p>
+                            If you're considering Nathan for your organization, I have nothing but wonderful things to say. You'd be crazy not to hire him."
+                        </p>
+                        <p class="font-semibold">
+                            - Jon VerLee
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
