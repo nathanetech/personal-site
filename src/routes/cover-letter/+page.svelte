@@ -41,34 +41,35 @@
         </div>
         <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 print:col-span-9 p-4 print:p-0 space-y-6">
             <p>
-                Dear Moov team,
+                Planning Center team,
             </p>
             <p>
-                I'm writing to apply for the Software Engineer position at Moov. As a continual learner with several years of experience
-                working in production environments, I believe that I would be a great fit for the role.
+                I'm writing to express my interest in the Mobile Developer role at Planning Center. I believe that I would be a great fit for the team
+                and would like to have the opportunity to discuss the position with you.
             </p>
             <p>
-                My experience strongly aligns with what you are looking for in this position. I have experience working on teams, 
-                creating APIs, contributing to the product lifecycle, and developing features from start to finish. I'm adaptable,
-                conscientious, and excited about the prospect of helping Moov achieve your goals. 
+                I got into software development initially because I intended to use it as a way to support my family as a bivocational pastor. As I learned
+                and grew in my skills, it became clear that software development was the right path for me to be able to serve the church and others. 
+                I love to solve problems and see churches be successful in their mission through technology. I'm glad I have had the opportunity to do just that
+                at both Breeze Church Management and Tithely, and I am excited about the prospect of continuing to do so at Planning Center.
             </p>
             <p>
-                Although I do not have professional experience developing in Go, I do have relevant experience in other languages,
-                such as PHP, Javascript, Python, and Java. As a fast learner, I have no doubt that I would be able to pick it up quickly
-                and make meaningful contributions to the product. 
+                By God's grace, I have experience working in churches and knowing what churches need to do ministry. I interned at a church as Youth Director and 
+                have served on staff at a different church as Outreach Director where I also administrated the church's Breeze account. During those experiences, 
+                I was able to serve in various capacities, learning the needs and pains of ministry work. That experience has helped guide me as I contributed
+                to the development of Breeze and Tithely. As an interesting side note, the church I now call home uses Planning Center. My main interactions so far
+                have been with checking my children into the nursery and using the Church Center app. It's been a great experience, and I'd love to have the 
+                opportunity to contribute to the continued development of the platform. 
             </p>
             <p>
-                My resume, website (an extended version of my resume), and LinkedIn profile will give you a better idea of my
-                experience and some projects I have worked on. The included recommendations will give you the thoughts of 
-                coworkers and managers who have worked directly with me. 
+                My personal and professional experience aligns with what you are looking for in this position. I have broad experience working across the stack. 
+                At Breeze, I worked as a Full Stack Engineer, building a React frontend and Laravel backend, while also maintaining a legacy PHP application. At
+                Tithely, I started as a Backend Engineer, working in PHP in a Domain Driven Design environment. I then transitioned to Mobile Engineer after
+                discussing with my manager and the director of engineering that mobile development is where my passion lies. I currently work primarily in
+                Kotlin. In my personal time I have explored many mobile technologies, including Kotlin, KMM, Swift, and React Native. 
             </p>
             <p>
-                Moov's core values - give first, respect the craft, make it count, radical transparency, reciprocate trust, and embrace community - 
-                are all values that resonate with me. My LinkedIn recommendations demonstrate this fact.
-            </p>
-            <p>
-                I'm excited about the opportunity to speak with you about the open position. Please let me know when you are ready
-                to moov on to an interview. 
+                Thank you for taking the time to consider my application. I'm excited about the opportunity to speak with you about the open position. 
             </p>
             <p>
                 Nathan Tech

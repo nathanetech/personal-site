@@ -7,6 +7,7 @@
     const skills = [
         "Javascript",
         "React",
+        "Kotlin",
         "SvelteKit",
         "Vue",
         "Python",
@@ -152,17 +153,17 @@
                         position="Software Engineer (remote)"
                         company="Tithe.ly"
                         time="2021-present"
-                        technologies="PHP, Javascript, Vue, Git, MySQL, Docker"
+                        technologies="PHP, Javascript, Vue, Git, MySQL, Docker, Kotlin, Java"
                     >
                         <ul>
                             <li>
                                 Simplified the API for processing transactions by developing a unified package for all the company's PHP products.
                             </li>
                             <li>
-                                Updated unit tests to follow established best practices.
+                                Increased app performance by analyzing and removing unnecessary network calls to legacy API. 
                             </li>
                             <li>
-                                Increased app performance by analyzing and removing unnecessary network calls to legacy API. 
+                                Improved Android app's livestreaming experience by showing who is online. 
                             </li>
                             <li class="print:hidden">
                                 Provided meaningful feedback to coworkers in code reviews. 
@@ -190,10 +191,13 @@
                                 Created an automated integration with Hubspot that kept company and contact data synchronized between the two data sources. 
                             </li>
                             <li>
-                                Expanded the API by creating multiple well-tested endpoints and services. 
+                                Created a small React Native app to use while hosting a tech talk on how to convert class components into function components.
                             </li>
                             <li>
                                 Contributed to company and engineering culture by leading tech talks and watercooler events.
+                            </li>
+                            <li class="print:hidden">
+                                Expanded the API by creating multiple well-tested endpoints and services. 
                             </li>
                             <li class="print:hidden">
                                 Provided meaningful feedback to coworkers in code reviews. 
@@ -252,7 +256,7 @@
                             a great sense of humor. I heartily recommend him!"
                         </p>
                         <p class="font-semibold">
-                            - Bill Harding
+                            - Bill Harding, coworker at Breeze ChMS
                         </p>
                     </div>
                     <div>
@@ -262,7 +266,7 @@
                             and is an excellent communicator. He couples these skills with a great attitude. I'd highly recommend him to any team."
                         </p>
                         <p class="font-semibold">
-                            - Josh Weaver
+                            - Josh Weaver, coworker at Breeze ChMS and Tithely
                         </p>
                     </div>
                     <div>
@@ -278,7 +282,7 @@
                             If you're considering Nathan for your organization, I have nothing but wonderful things to say. You'd be crazy not to hire him."
                         </p>
                         <p class="font-semibold">
-                            - Jon VerLee
+                            - Jon VerLee, founder of Breeze ChMS
                         </p>
                     </div>
                 </div>
