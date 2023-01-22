@@ -12,7 +12,7 @@
         <h3 class="text-2xl text-sky-900 dark:text-sky-700">Software Engineer</h3>
     </div>
     <div class="grid md:grid-cols-12 print:grid-cols-12">
-        <div class="md:col-span-5 lg:col-span-4 xl:col-span-3 2xl:col-span-2 print:col-span-3 print:bg-slate-400 space-y-6 p-4 print:p-0 md:bg-slate-200 md:dark:bg-slate-700">
+        <div class="print:hidden md:col-span-5 lg:col-span-4 xl:col-span-3 2xl:col-span-2 print:col-span-3 print:bg-slate-400 space-y-6 p-4 print:p-0 md:bg-slate-200 md:dark:bg-slate-700">
             <div>
                 <Header>
                     Contact
@@ -39,7 +39,7 @@
                 </a>
             </div>
         </div>
-        <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 print:col-span-9 p-4 print:p-0 space-y-6">
+        <div class="md:col-span-7 lg:col-span-8 xl:col-span-9 2xl:col-span-10 print:col-span-12 p-4 print:p-0 space-y-6">
             <p>
                 Planning Center team,
             </p>
@@ -67,6 +67,11 @@
                 Tithely, I started as a Backend Engineer, working in PHP in a Domain Driven Design environment. I then transitioned to Mobile Engineer after
                 discussing with my manager and the director of engineering that mobile development is where my passion lies. I currently work primarily in
                 Kotlin. In my personal time I have explored many mobile technologies, including Kotlin, KMM, Swift, and React Native. 
+            </p>
+            <p>
+                I'd like to join the team because I believe in what you are doing. Planning Center makes quality products and seems to genuinely want to serve
+                the church. From what I can tell, it is also a great place to work. I'm on board with making great products with great people that serve a great 
+                mission.
             </p>
             <p>
                 Thank you for taking the time to consider my application. I'm excited about the opportunity to speak with you about the open position. 
