@@ -185,13 +185,10 @@
                             </li>
                             <li>
                                 Helped the team move from using class components to function components in React by 
-                                leading a talk on the subject and creating multiple examples in the company's codebase. 
+                                leading a talk on the subject using a small React Native app I made and creating multiple examples in the company's codebase. 
                             </li>
                             <li>
                                 Created an automated integration with Hubspot that kept company and contact data synchronized between the two data sources. 
-                            </li>
-                            <li>
-                                Created a small React Native app to use while hosting a tech talk on how to convert class components into function components.
                             </li>
                             <li>
                                 Contributed to company and engineering culture by leading tech talks and watercooler events.
