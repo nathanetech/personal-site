@@ -55,7 +55,7 @@
             </p>
             <p>
                 By God's grace, I have experience working in churches and knowing what churches need to do ministry. I interned at a church as Youth Director and 
-                have served on staff at a different church as Outreach Director where I also administrated the church's Breeze account. During those experiences, 
+                served on staff at a different church as Outreach Director where I also administrated the church's Breeze account. During those experiences, 
                 I was able to serve in various capacities, learning the needs and pains of ministry work. That experience has helped guide me as I contributed
                 to the development of Breeze and Tithely. As an interesting side note, the church I now call home uses Planning Center. My main interactions so far
                 have been with checking my children into the nursery and using the Church Center app. It's been a great experience, and I'd love to have the 
